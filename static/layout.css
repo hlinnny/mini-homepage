@@ -1,0 +1,248 @@
+/* layout.css */
+
+body {
+    background-color: #a3a3a3;
+    background-image: url("../static/images/pattern.png");
+    background-size: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+  
+.bookcover {
+    background-color: #f1b5b5;
+    border-radius: 9px;
+    border: 1px solid #738186;
+    width: 960px;
+    height: 660px;
+    margin: 100px auto;
+    position: relative;
+}
+  
+.bookdot {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    border: 2px dashed #ffffff;
+    border-radius: 9px;
+}
+  
+.page {
+    display: flex;
+    padding: 15px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    background-color: #EEEEEE;
+    border-radius: 9px;
+}
+  
+.profile-container {
+    display: flex;
+    flex: 0.8;
+    flex-direction: column;
+    margin: 0px 10px 0px 0px;
+}
+  
+.contents-container {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    margin: 0px 0px 0px 10px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    margin-top: 3.5rem;
+}
+  
+.profile-top {
+    flex: 0.1;
+    padding-top: 10px;
+    font-size: 15px;
+    letter-spacing: -0.8px;
+    text-align: center;
+}
+  
+.profile-bottom {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    flex: 2;
+    border: 1px solid  lightgrey;
+    border-radius: 9px;
+    background-color: white;
+    padding: 18px;
+}
+  
+.contents-top {
+    display: flex;
+    flex: 0.1;
+    padding-top: 10px;
+}
+  
+.contents-bottom {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    border: 1px solid  lightgrey;
+    border-radius: 9px;
+    background-color: white;
+    padding: 18px;
+}
+  
+.title {
+    flex: 0.5;
+    font-size: 15px;
+}
+  
+.url {
+    flex: 0.5;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.red-color {
+    color: red;
+}
+  
+.profile-image {
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 5px;
+}
+  
+.introduction {
+    flex: 0.9;
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+}
+  
+.profile-menu {
+    display: flex;
+    flex: 0 0 auto;
+    padding: 5px 5px 0px 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.edit-history {
+    flex: 0 0 auto;
+    font-size: 0.8rem;
+    padding-bottom: 0px;
+}
+  
+.pink-color {
+    color: #F69B94;
+}
+  
+.button {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    align-items: center;
+}
+
+.button1, .button2 {
+    flex: 1;
+}
+  
+.divider {
+    border: 0.5px solid lightgrey;
+}
+  
+.personal-info {
+    flex: 0 0 auto;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.dropdown {
+    flex: 0 0 auto;
+    border: 1px solid lightgrey;
+    position: relative;
+    padding: 4px;
+    margin: 10px 3px 3px 3px;
+    font-size: 13px;
+}
+
+.dropdown-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdown-title {
+    padding: 3px;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 4.5px solid transparent;
+    border-right: 4.5px solid transparent;
+    border-top: 5px solid #838383;
+  }
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 4.5px solid transparent;
+    border-right: 4.5px solid transparent;
+    border-bottom: 5px solid #838383;
+}
+
+.dropdown-contents {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.dropdown:hover > .dropdown-contents  {
+    display: block;
+}
+
+.dropdown-contents a {
+    display: block;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 7px;
+    text-decoration: none;
+    color: grey;
+  }
+
+.dropdown-contents > a:hover {
+    color: #fa8279;
+    background-color: #f1f1f1;
+}
+
+.menu-container > a{
+    border: 1px solid #F4EBE7;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #fa8279;
+    color: #F4EBE7;
+    text-decoration: none;
+    font-size: 0.85rem;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.menu-container > a:hover {
+    background-color: #96B0E5;
+}

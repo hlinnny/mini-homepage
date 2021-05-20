@@ -1,0 +1,85 @@
+/* home.css */
+
+.updated-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+  
+.updated-contents {
+    display: flex;
+    flex: 0 0 auto;
+    margin: 3px;
+    font-size: 13px;
+}
+  
+.updated-left, .updated-right{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+  
+.miniroom-container {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+  
+.home-title{
+    font-family: 'KOTRA_BOLD-Bold';
+    font-size: 17px;
+    color: #fa8279;
+}
+  
+.updated-list {
+    flex: 1;
+    padding: 5px 3px;
+}
+  
+.updated-menu {
+    display: flex;
+    flex: 0 0 auto;
+    padding: 5px 3px;
+}
+  
+.updated-menu-left, .updated-menu-right {
+    flex: 1;
+}
+
+.miniroom-box {
+    flex: auto;
+}
+  
+.photos {
+    color: white;
+    border-radius: 3px;
+    background: #fc5956;
+    padding: 3px 5px;
+    margin-right: 2px;
+}
+  
+.board {
+    color: white;
+    border-radius: 3px;
+    background: #37889b;
+    padding: 3px 5px;
+    margin-right: 2px;
+}
+  
+.diary {
+    color: white;
+    border-radius: 3px;
+    background: #a7ba59;
+    padding: 3px 5px;
+    margin-right: 2px;
+}
+  
+.dashed-divider {
+    border: 0.5px dashed lightgrey;
+}
+  
+.count {
+    color: lightcoral;
+    font-weight: bold;
+    font-size: 12px;
+}

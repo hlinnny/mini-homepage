@@ -1,0 +1,44 @@
+/* photo.css */
+
+.contents-bottom {
+    position: relative;
+}
+
+.photo-container {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow: auto;
+}
+
+.photo-title-box {
+    display:flex;
+    justify-content: space-between;
+    background-color: #e7e7e7;
+    padding: 10px 12px;
+    margin: 10px 0;
+}
+
+.photo-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.photo-date {
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.photo-content {
+    width: 455px;
+    padding: 10px 15px;
+    margin-bottom: 50px;
+    font-size: 13px;
+    line-height: 130%;
+}
+
+.photo-main > img {
+    margin-bottom: 10px;
+}

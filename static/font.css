@@ -1,0 +1,23 @@
+/* font.css */
+
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'KOTRA_BOLD-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nanumsquare {
+    font-family: 'NanumSquare', sans-serif !important;
+}
+
+.dunggeunmo {
+    font-family: 'DungGeunMo';
+}

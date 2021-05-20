@@ -1,0 +1,74 @@
+/* visited.css */
+
+.contents-bottom {
+    position: relative;
+}
+
+.visited-container {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.visited-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 50px;
+}
+
+.visited-info {
+    background-color: #e7e7e7;
+    padding: 10px 12px;
+    margin-bottom: 25px;
+}
+
+.nickname {
+    color: blue;
+    font-size: 14px;
+}
+
+.fas {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.visited-content {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.visited-profile {
+    flex: 0.75;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.visited-comment {
+    flex: 2;
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.visited-profile > img {
+    width: 100%;
+}
+
+.background1 {
+    background-image: url("./images/background1.jpg")
+}
+
+.background2 {
+    background-image: url("./images/background2.jpg")
+}
+
+.background3 {
+    background-image: url("./images/background3.png")
+}
